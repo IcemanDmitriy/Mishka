@@ -1,0 +1,18 @@
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$base-font-family:'Open Sans', sans-serif;
+$font-weight-normal: 300;
+$font-weight-bold: 700;
+
+$text-color: #000000;
+
+$max-width-percent: 100%;
+
+$breakpoints: (
+  'small': (min-width: 320px),
+  'only-small': (max-width:767px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1250px),
+  'min-resolution-dpi':(min-resolution:144dpi),
+  'min-resolution-ddpx':(min-resolution:1.5ppx),
+);

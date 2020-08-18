@@ -1,0 +1,200 @@
+@import "../../helpers/variables";
+@import "../../base/helpers";
+@import "../../helpers/mixins";
+
+.best-product {
+    position: relative;    
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+        padding: 1.7em 1.875em 2.6em 1.875em;
+
+        @include respond-to ('medium') {
+            width: 48em;
+            padding: 2.8em 3.125em 4.3em 3.125em;
+        }
+
+        @include respond-to ('large') {
+            padding: 4.75em 6.25em 6em 6.25em;
+            width: 78.125em;
+        }
+    }
+
+    &__header {
+
+        @include respond-to ('medium') {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @include respond-to ('large') {
+            position: relative;
+            justify-content: flex-start;
+            margin-top: 3em;
+            z-index: 3;
+        }
+    }
+
+    &__header-title{
+        margin: 0;
+        font-size: 1.5625rem;
+        line-height: 1.3;
+
+        @include respond-to ('medium') {
+            font-size: 2.6875rem;
+            line-height: 1.16;
+        }
+
+        @include respond-to ('large') {
+            // margin-left: 0.3em;
+            font-size: 3.125rem;
+            line-height: 1.3;
+            letter-spacing: 0.03em;
+            order: 2;
+        }
+    }
+
+    &__week-best{
+        display: block;
+        font-size: 1.0625rem;
+        line-height: 1.5;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #63d1bb;
+
+        @include respond-to ('medium') {
+            width: 6.5em;
+            margin-top: 0.4em;
+            margin-right: 0.5em;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        @include respond-to ('large') {
+            margin-top: 0.2em;
+            margin-right: 2em;
+            margin-left: 1.5em;
+            line-height: 1;
+            order: 1;
+        }
+    }
+
+    &__description {
+        margin: 0;
+        margin-top: 1.4em;
+        font-size: 0.9375rem;
+        line-height: 1.6;
+        letter-spacing: 0.02em;
+
+        @include respond-to ('medium') {
+            width: 17em;
+            margin-top: 3em;
+            // margin-bottom: 2em;
+            font-size: 1.0625rem;
+            line-height: 1.77;
+        }
+
+        @include respond-to ('large') {
+            margin-left: 10.3em;
+            margin-top: 2.6em;
+            // margin-bottom: 3em;
+        }
+    }
+
+    &__specification {
+        width: 100%;
+        margin-top: 1em;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 0.9375rem;
+        line-height: 1.333; 
+        color: #444444; 
+
+        @include respond-to ('medium') {
+            width: 20em;
+            margin-top: 2.3em;
+        }
+
+        @include respond-to ('large') {
+            margin-top: 3em;
+            margin-left: 11.5em;
+        }
+
+        &-row {
+            display: block;
+            padding-top: 0.6333em;
+            padding-bottom: 0.5333em;
+            border-bottom: 1px solid #ececec;
+        }
+
+        &-parametre {
+            width: 6.533em;
+        }
+    }
+
+    &__picture {
+        margin-top: 1.8em;
+
+        @include respond-to ('medium') {
+            position: absolute;
+            top: 9.5em;
+            right: 3.2em;        
+            margin-top: 0;
+
+            img {
+                width: 20.8125em;
+                height: 25.25em;
+            }
+        }
+
+        @include respond-to ('large') {
+            top: 4.5em;
+            right: 6.3em;
+            z-index: 1;
+
+            img {
+                width: 32.8125em;
+                height: 39.75em;
+            }
+        }
+    }
+    
+    &__price {
+        display: block;
+        margin-top: 1.118em;
+        // padding-bottom: 1.65em;
+        text-align: center;
+        font-size: 1.0625rem;
+        line-height: 1.41;
+        font-weight: 700;
+        color: #444444;
+
+        @include respond-to ('medium') {
+            width: 14.5em;
+            margin-top: 2.8em;
+            font-size: 1.25rem;
+            line-height: 1.2;
+        }
+
+        @include respond-to ('large') {
+            margin-top: 5.5em;
+            margin-left: 8.8em;
+        }
+    }
+
+    &__btn {
+        margin-top: 1.5em;
+
+        @include respond-to ('medium') {
+            width: 17em;
+            margin-top: 2em;
+        }
+
+        @include respond-to ('large') {
+            margin-left: 10.4em;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import "../helpers/variables";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  box-sizing: border-box;
+
+  @include respond-to ('medium') {
+    font-size: $base-font-size;
+  }
+
+  @include respond-to ('large') {
+    font-size: $base-font-size;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: $base-font-family;
+  background-color: #FFFFFF;
+  color: $text-color;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}

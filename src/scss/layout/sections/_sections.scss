@@ -1,0 +1,60 @@
+@import "advantages";
+@import "feedback";
+@import "contacts";
+
+.main-content {
+
+    &__best-product {
+
+        &::after {
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 20em;
+            height: 0.375em;
+            background-image: url("../../assets/img/zigzag-line-mobile-grey.svg.png");
+            background-repeat: repeat-x;
+    
+            @include respond-to ('medium') {
+                width: 48em;
+                height: 1.0625em;
+                background-image: url("../../assets/img/zigzag-line-tablet-grey.svg.png");   
+            }
+    
+            @include respond-to ('large') {
+                width: 78.125em;
+                height: 1.4375em;
+                background-image: url(../../assets/img/zigzag-line-desktop-grey.svg.png);
+            }
+        }
+    }
+
+    &__feedback {
+        position: relative;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 20em;
+            height: 0.375em;
+            background-image: url("../../assets/img/zigzag-line-mobile-grey.svg.png");
+            background-repeat: repeat-x;
+    
+            @include respond-to ('medium') {
+                bottom: 0;
+                width: 48em;
+                height: 1.0625em;
+                background-image: url("../../assets/img/zigzag-line-tablet-grey.svg.png");   
+            }
+    
+            @include respond-to ('large') {
+                width: 78.125em;
+                height: 1.4375em;
+                background-image: url(../../assets/img/zigzag-line-desktop-grey.svg.png);
+            }
+        }
+    } 
+}

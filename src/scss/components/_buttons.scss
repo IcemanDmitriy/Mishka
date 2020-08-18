@@ -1,0 +1,87 @@
+@import "../helpers/mixins";
+
+.btn {
+    width: 100%;
+    padding: 0.83em 0 0.83em 0;
+    font-size: 1.0625rem;
+    line-height: 1.18;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #444444;
+    background-color: transparent;
+    outline: transparent;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: #444444;
+        color: #ffffff;
+    }
+
+    &:active {
+        background-color: #444444;
+        color: #7c7c7c;
+    }
+
+    &--green {
+        background-color: #63d1bb;
+        color: #ffffff;
+    }
+}
+
+.btn-burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1.25rem;
+    width: 1.3125rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: transparent;
+    outline: transparent;
+    cursor: pointer;
+
+    span,
+    span::before,
+    span::after {
+        display: block;
+        width: 1.3125rem;
+        height: 0.1875rem;
+        background-color: black;
+        transition: all 300ms ease-in-out;
+    }
+
+    span::before,
+    span::after {
+        content: " ";
+        position: absolute;
+    }
+
+    & span::before {
+        top: 0.15rem;
+    }
+
+    & span::after {
+        bottom: 0.15rem;
+    }
+
+    &--opened {
+
+        & span {
+            background-color: transparent;
+        }
+        
+        & span:before {
+            top: 0.525rem;
+            transform: rotate(45deg);
+        }
+
+        & span::after {
+            bottom: 0.525rem;
+            transform: rotate(-45deg);
+        }
+
+    }
+}

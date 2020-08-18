@@ -1,0 +1,176 @@
+@import "../../helpers/variables";
+@import "../../base/helpers";
+@import "../../helpers/mixins";
+
+.description {
+    position: relative;
+    background-color: #ffffff;
+
+    @include respond-to ('medium') {
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -0.3125em;
+            display: flex;
+            width: 48em;
+            height: 0.9375em;
+            background-image: url(../../assets/img/zigzag-fill-tablet.png);
+            background-repeat: repeat-x;
+            background-position: -0.3125em top;
+            background-size: auto 1.4375em;
+        }
+    }
+
+    @include respond-to ('large') {
+        &::after {
+            content: "";
+            left: 0;
+            bottom: -0.1em;
+            width: 78.125em;
+            background-image: url(../../assets/img/zigzag-fill-desktop.png);
+            background-size: auto 2.125em;
+        }
+    }
+
+    &__wrapper {
+        background-image: url('../../assets/img/hero/hero-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+
+        @include respond-to ('medium') {
+            margin-top: -3.9em;
+            background-image: url('../../assets/img/hero/hero-tablet.jpg');
+            background-color: #f9f9f9;
+        }
+
+        @include respond-to ('large') {
+            background-image: url('../../assets/img/hero/hero-desktop.jpg');
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 4.35em;
+        padding-bottom: 7.744em;
+
+        @include respond-to ('medium') {
+            padding-top: 9.35em;
+            padding-bottom: 23.45em;
+        }
+
+        @include respond-to ('large') {
+            padding-top: 9.44em;
+            padding-bottom: 22.5em;
+        }
+    }
+
+    &__header-title {
+        margin: 0;
+        padding: 0;
+        font-size: 1.6875rem;
+        line-height: 1.111;
+        font-weight: 700;
+        letter-spacing: -0.001rem;
+        text-align: center;
+
+        @include respond-to ('medium') {
+            font-size: 2.6875rem;
+            line-height: 1.162;
+        }
+
+        @include respond-to ('large') {
+            font-size: 3.3125rem;
+            line-height: 1.08;
+        }
+    }
+
+    &__types-list {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        @include respond-to ('medium') {
+            display: flex;
+            width: 41.75em;
+            margin: 0 auto;
+        }
+        @include respond-to ('large') {
+            width: 65.625em;
+        }
+    }
+
+    &__type {
+        position: relative;
+        width: 100%;
+
+        &:first-child {
+            background-color: #63d1bb;
+        }
+
+        &:last-child {
+            background-color: #56c3b2;
+        }
+
+        > a {
+            display: flex;
+            padding: 1.2em 1.5em 1.645em 1.5em;
+            font-size: 1.1875rem;
+            line-height: 1.3;
+            font-weight: 700;
+            color: #ffffff;
+
+            @include respond-to ('medium') {
+                padding: 1.74em 1.5em 1.75em 1.8em;
+                letter-spacing: 0.04rem;
+                line-height: 1.4;
+            }
+
+            @include respond-to ('large') {
+                padding: 1.6em 1.5em 1.75em 1.8em;
+                letter-spacing: 0.04rem;
+                line-height: 1.4;
+            }
+
+            &:hover {
+                svg {
+                    fill:#29a592;
+                }
+            }
+
+            &:active {
+                svg {
+                    fill:#44c0aa;
+                }
+            }
+        }
+    }
+
+    &__home-goods-icon {
+        position: absolute;
+        top: 1.2em;
+        right: 2em;
+        fill: #3bb09d;
+
+        @include respond-to ('medium') {
+            top: 1.5em;
+            right: 2em;
+        }
+    }
+
+    &__toy-icon {
+        position: absolute;
+        top: 1.2em;
+        right: 1.5em;
+        fill: #3bb09d;
+
+        @include respond-to ('medium') {
+            top: 1.6em;
+            right: 1.8em;
+        }
+    }
+
+}
