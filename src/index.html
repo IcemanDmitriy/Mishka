@@ -1,6 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="ru">
-
 <head>
   <meta charset="utf-8">
   <title>Mishka</title>
@@ -115,7 +114,7 @@
               </picture>
             </div>
             <span class="best-product__price">Цена: 990 руб.</span>
-            <button class="btn best-product__btn">Заказать</button>
+            <button class="btn best-product__btn" data-toggle="modal" data-target="modal-order">Заказать</button>
           </div>
         </article>
         <section class="advantages main-content__advantages">
@@ -244,8 +243,7 @@
         </a>
       </div>
     </footer>
-    <div class="modal">
-      <div class="modal-order">
+      <section class="modal modal-order" tabindex="-1">
         <h2 class="modal-order__title">Добавить в корзину</h2>
         <p class="modal-order__action">Выберите размер</p>
         <ul class="modal-order__sizes">
@@ -254,9 +252,11 @@
           <li class="modal-order__size">L</li>
         </ul>
         <button class="btn btn--green modal-order__btn">Добавить</button> 
-      </div>
-    </div>
+      </section>
+      <div class="modal-overlay"></div>
   </div>
+<script src="js/navigation.js"></script>
+<script src="js/modalview.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

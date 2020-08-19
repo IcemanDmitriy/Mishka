@@ -41,6 +41,36 @@ a {
   text-decoration: none;
 }
 
+.modal {
+  display: none;
+  background-color: #FFFFFF;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  box-shadow: 0px 8px 25px -1px rgba(0, 0, 0, 0.51);
+  z-index: 20;
+}
+
+.modal--active {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.modal-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+}
+
+.modal-overlay--active {
+  display: block;
+}
+
 .wrapper {
   width: 20rem;
   margin: 0 auto;
@@ -1905,6 +1935,155 @@ a {
   }
 }
 
+.wrapper {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 48rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .wrapper {
+    width: 78.125rem;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.modal-order {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 20em;
+  padding: 2.45em 1.875em 2.45em 1.875em;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+  .modal-order {
+    width: 35.4375em;
+    padding: 2.875em 6.8125em 2.875em 6.8125em;
+  }
+}
+
+.modal-order__title {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0 2.1em;
+  font-size: 1.5625rem;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .modal-order__title {
+    padding: 0 0;
+    font-size: 1.875rem;
+    line-height: 1.9;
+  }
+}
+
+.modal-order__action {
+  display: block;
+  width: 100%;
+  margin-top: 0.8em;
+  margin-bottom: 0;
+  font-size: 0.9375rem;
+  text-align: center;
+  line-height: 2;
+}
+
+@media (min-width: 768px) {
+  .modal-order__action {
+    margin-top: 0.6em;
+    font-size: 1.0625rem;
+    line-height: 1.765;
+  }
+}
+
+.modal-order__sizes {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.8em;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 1.0625rem;
+  line-height: 1;
+  font-weight: 700;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .modal-order__sizes {
+    margin-top: 1.529em;
+  }
+}
+
+.modal-order__size {
+  width: 4.823em;
+  padding: 0.912em 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+  border: 2px solid #ececec;
+}
+
+@media (min-width: 768px) {
+  .modal-order__size {
+    width: 6.588em;
+  }
+}
+
+.modal-order__size:hover {
+  border: 2px solid #63d1bb;
+}
+
+.modal-order__size:active {
+  border: 2px solid #63d1bb;
+}
+
+.modal-order__btn {
+  margin-top: 1.9375em;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .modal-order__btn {
+    margin-top: 2em;
+  }
+}
+
 .main-content__best-product::after {
   content: " ";
   position: absolute;
@@ -2094,177 +2273,6 @@ a {
 
 .social-network > a:active {
   fill: #d0f1ea;
-}
-
-.wrapper {
-  width: 20rem;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .wrapper {
-    width: 48rem;
-  }
-}
-
-@media (min-width: 1250px) {
-  .wrapper {
-    width: 78.125rem;
-  }
-}
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.modal-order {
-  display: none;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  width: 20em;
-  margin: 0 auto;
-  margin-top: -10.5em;
-  padding: 2.45em 1.875em 2.45em 1.875em;
-  -webkit-transform: translateY(50vh);
-  transform: translateY(50vh);
-  background-color: #FFFFFF;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  box-shadow: 0px 8px 25px -1px rgba(0, 0, 0, 0.51);
-}
-
-@media (min-width: 768px) {
-  .modal-order {
-    width: 35.4375em;
-    padding: 2.875em 6.8125em 2.875em 6.8125em;
-    border-right: 1px solid grey;
-    border-left: 1px solid grey;
-  }
-}
-
-.modal-order__title {
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  margin: 0;
-  padding: 0 2.1em;
-  font-size: 1.5625rem;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-}
-
-@media (min-width: 768px) {
-  .modal-order__title {
-    padding: 0 0;
-    font-size: 1.875rem;
-    line-height: 1.9;
-  }
-}
-
-.modal-order__action {
-  display: block;
-  width: 100%;
-  margin-top: 0.8em;
-  margin-bottom: 0;
-  font-size: 0.9375rem;
-  text-align: center;
-  line-height: 2;
-}
-
-@media (min-width: 768px) {
-  .modal-order__action {
-    margin-top: 0.6em;
-    font-size: 1.0625rem;
-    line-height: 1.765;
-  }
-}
-
-.modal-order__sizes {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 0.8em;
-  margin-bottom: 0;
-  padding-left: 0;
-  font-size: 1.0625rem;
-  line-height: 1;
-  font-weight: 700;
-  list-style: none;
-}
-
-@media (min-width: 768px) {
-  .modal-order__sizes {
-    margin-top: 1.529em;
-  }
-}
-
-.modal-order__size {
-  width: 4.823em;
-  padding: 0.912em 0;
-  margin-bottom: 0.5em;
-  text-align: center;
-  border: 2px solid #ececec;
-}
-
-@media (min-width: 768px) {
-  .modal-order__size {
-    width: 6.588em;
-  }
-}
-
-.modal-order__size:hover {
-  border: 2px solid #63d1bb;
-}
-
-.modal-order__size:active {
-  border: 2px solid #63d1bb;
-}
-
-.modal-order__btn {
-  margin-top: 1.9375em;
-  border: none;
-}
-
-@media (min-width: 768px) {
-  .modal-order__btn {
-    margin-top: 2em;
-  }
-}
-
-.modal {
-  position: fixed;
-  display: none;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index: 3;
-}
-
-.modal--active {
-  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

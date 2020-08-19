@@ -4,25 +4,18 @@
 
 
 .modal-order {
-    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    // display: none;
     flex-direction: column;
     width: 20em;
-    margin: 0 auto;
-    margin-top: -10.5em;
     padding: 2.45em 1.875em 2.45em 1.875em;
-    transform: translateY(50vh);
-    background-color: #FFFFFF;
-    border-top:1px solid grey;
-    border-bottom:1px solid grey;
-    -webkit-box-shadow: 0px 8px 25px -1px rgba(0,0,0,0.51);
-    -moz-box-shadow: 0px 8px 25px -1px rgba(0,0,0,0.51);
-    box-shadow: 0px 8px 25px -1px rgba(0,0,0,0.51);
+    transform: translate(-50%,-50%);
 
     @include respond-to ('medium') {
         width: 35.4375em;
         padding: 2.875em 6.8125em 2.875em 6.8125em;
-        border-right:1px solid grey;
-        border-left:1px solid grey;
     }
 
     &__title {
