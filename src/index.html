@@ -34,8 +34,8 @@
             <li class="user-list__search">
               <a href="">
                 Поиск по сайту
-                    <svg class="user-list__icon-search" width="17.6" height="17.6"">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-search">
+                    <svg class="user-list__icon-search" width="17.6" height="17.6" role="img">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-search">
                       </use>
                     </svg>
               </a>
@@ -43,8 +43,8 @@
             <li class="user-list__shop-cart">
               <a href="">
                 Корзина: пока пуста
-              <svg class="user-list__icon-shop-cart" width="20.3" height="18.9">
-                <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-cart">
+              <svg class="user-list__icon-shop-cart" width="20.3" height="18.9" role="img">
+                <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-cart">
                 </use>
               </svg>
               </a>
@@ -67,16 +67,16 @@
             <ul class="description__types-list">
               <li class="description__type"><a href="#">
                 <span>Предметы <br> интерьера</span>
-                  <svg class="description__home-goods-icon" width="40.22" height="62.41">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-interior"> </use>
+                  <svg class="description__home-goods-icon" width="40.22" height="62.41" role="img">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-interior"> </use>
                   </svg>
               </a>
             </li>
               <li class="description__type">
                 <a href="#">
                   <span>Детские <br> игрушки</span>
-                    <svg class="description__toy-icon" width="60" height="59.6">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-toy"></use>
+                    <svg class="description__toy-icon" width="60" height="59.6" role="img">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-toy"></use>
                     </svg>
                 </a>
               </li>
@@ -108,9 +108,9 @@
             </table>
             <div class="best-product__picture">
               <picture>
-                <source srcset="assets/img/goods/triple-set-desktop.jpg" media="(min-width:1250px)">
-                <source srcset="assets/img/goods/triple-set-tablet.jpg" media="(min-width:768px)">
-                <img src="assets/img/goods/triple-set-mobile.jpg" alt="" width="260" height="315">
+                <source srcset="assets/img/goods/triple/triple-set-desktop.jpg" media="(min-width:1250px)">
+                <source srcset="assets/img/goods/triple/triple-set-tablet.jpg" media="(min-width:768px)">
+                <img src="assets/img/goods/triple/triple-set-mobile.jpg" alt="" width="260" height="315">
               </picture>
             </div>
             <span class="best-product__price">Цена: 990 руб.</span>
@@ -157,13 +157,15 @@
               </div>
               <div class="feedback__navigation">
                 <button class="feedback__left">
-                  <svg class="feedback__arrow" width="52" height="26">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-left-arrow"></use>
+                  <svg class="feedback__arrow" width="52" height="26" role="img" aria-labelledby="feedback__previous">
+                    <title id="feedback__previous">Предыдущий отзыв</title>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-arrow_left"></use>
                   </svg>
                 </button>
                 <button class="feedback__right">
-                  <svg class="feedback__arrow" width="52" height="26">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-right-arrow"></use>
+                  <svg class="feedback__arrow" width="52" height="26" role="img" aria-labelledby="feedback__next">
+                    <title id="feedback__next">Следующий отзыв</title>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-arrow_right"></use>
                   </svg>
                 </button>
               </div>
@@ -208,37 +210,37 @@
     <footer class="main-footer">
       <div class="main-footer__wrapper">
         <a href="" class="main-footer__logo">
-            <svg class="main-footer__logo-icon" width="102" height="34">
-              <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-mishkins"></use>
+            <svg class="main-footer__logo-icon" width="102" height="34" role="img">
+              <use xmlns:xlink="http://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-footer_logo"></use>
             </svg>
         </a>
           <ul class="social-networks main-footer__social-networks">
             <li class="social-network">
             <a href="#">
-              <svg class="social-network__icon-instagram" width="21.77" height="21.33">
-                <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-instagram"></use>
+              <svg class="social-network__icon-instagram" width="21.77" height="21.33" role="img">
+                <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
             <li class="social-network">
               <a href="#">
-                <svg class="social-network__icon-facebook" width="14.96" height="27.72">
-                  <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-facebook"></use>
+                <svg class="social-network__icon-facebook" width="14.96" height="27.72" role="img">
+                  <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-fb"></use>
                 </svg>
               </a>
             </li>
             <li class="social-network">
               <a href="#">
-                <svg class="social-network__icon-twitter" width="23.49" height="20.17">
-                  <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-twitter"></use>
+                <svg class="social-network__icon-twitter" width="23.49" height="20.17" role="img">
+                  <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
           </ul>
         <a class="main-footer__developer" href="#">
           <span class="main-footer__developer-name">Разработано</span>
-          <svg class="main-footer__developer-icon" width="27" height="34">
-            <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/icons-sprite.svg#icon-academy"></use>
+          <svg class="main-footer__developer-icon" width="27" height="34" role="img">
+            <use xmlns:xlink="https://www.w3.org/1999/xlinl" xlink:href="/assets/img/svg/sprite.svg#icon-htmlacademy"></use>
           </svg>
         </a>
       </div>
