@@ -1,6 +1,7 @@
 'use strict';
 
 let gulp = require('gulp');
+let del = require('del');
 let sass = require('gulp-sass');
 let sourcemaps = require('gulp-sourcemaps');
 let autoprefixer = require('gulp-autoprefixer');
@@ -8,13 +9,13 @@ let watch = require('gulp-watch');
 let rename = require('gulp-rename');
 let svgstore = require('gulp-svgstore');
 let svgmin = require('gulp-svgmin');
-let svginject = require('gulp-inject');
+const { src } = require('gulp');
 let browserSync = require('browser-sync').create();
 
 function styleScss(done){
   gulp.src('./src/scss/**/*.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'expanded',errorLogToConsole:true}))
+    .pipe(sass({outputStyle: 'compressed',errorLogToConsole:true}))
     .on('error', console.error.bind(console))
     .pipe(autoprefixer({cascade:false }))
     .pipe(sourcemaps.write('./'))
@@ -48,18 +49,36 @@ function createSprite(done) {
   done();
 }
 
-function buildcreation (done) {
-  gulp.src([
-    './src/**/*.{svg,jpg,png}',
+function buildProduction (done) {
+  return gulp.src(
+    [
+    './src/**/*.{svg,png,jpg}',
     './src/**/*.js',
+    './src/**/*.{css,map}',
     './src/**/*.html'
-  ])
+    ]
+  )
   .pipe(gulp.dest('./build/'));
+  
+}
+
+function minimizeSvg (done) {
+  gulp.src('./build/**/*.svg')
+  .pipe(svgmin())
+  .pipe(gulp.dest('./build/'))
+  .pipe(svgstore())
+  .pipe(rename('sprite.svg'))
+  .pipe(gulp.dest('./build/assets/img/svg'))
   done();
 }
 
 gulp.task('default',gulp.parallel(watchFiles,sync));
 
+gulp.task('create-sprite', gulp.series(createSprite));
+
+gulp.task ('build', gulp.series(buildProduction,minimizeSvg));
+
+gulp.task('build-css',gulp.series(styleScss))
 
 
 
