@@ -21,60 +21,61 @@
   <component name="ChangeListManager">
     <list default="true" id="48498eff-37ab-4b2c-8858-d3511d8a6401" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-desktop-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-desktop-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-desktop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-desktop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-mobile-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-mobile-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-tablet-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-tablet-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/goods/triple/triple-set-tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-tablet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-desktop-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-desktop-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-desktop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-desktop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-mobile-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-mobile-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-tablet-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-tablet-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero/hero-tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero/hero-tablet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/mishka-logo-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-desktop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/mishka-logo-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/mishka-logo-tablet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-tablet.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-desktop-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-desktop-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-desktop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-desktop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-mobile-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-mobile-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-tablet-2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-tablet-2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/map/map-tablet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/map/map-tablet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/review.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/review.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/clew.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/clew.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/flag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/flower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/flower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/gift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/gift.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/heart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-arrow_left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-arrow_left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-arrow_right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-arrow_right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-footer_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-footer_logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-htmlacademy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-htmlacademy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-interior.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-interior.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-toy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-toy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/icon-twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/icon-twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/money.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/money.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/rocket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/rocket.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zigzag-fill-desktop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zigzag-fill-desktop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zigzag-fill-tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zigzag-fill-tablet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zigzag-line-desktop-grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zigzag-line-desktop-grey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zigzag-line-mobile-grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zigzag-line-mobile-grey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zigzag-line-tablet-grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/zigzag-line-tablet-grey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modalview.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modalview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/vendor/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/vendor/modernizr-3.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-desktop-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-mobile-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-tablet-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/goods/triple/triple-set-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-desktop-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-mobile-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-tablet-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hero/hero-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/mishka-logo-tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-desktop-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-mobile-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-tablet-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map/map-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/review.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/clew.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/flower.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-footer_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-htmlacademy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-interior.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-toy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/icon-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zigzag-fill-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zigzag-fill-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zigzag-line-desktop-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zigzag-line-mobile-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zigzag-line-tablet-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modalview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.8.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -148,14 +149,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\moroz\WebstormProjects\mishka\src\scss\vendors" />
       <recent name="C:\Users\moroz\WebstormProjects\mishka" />
       <recent name="C:\Users\moroz\WebstormProjects\mishka\src\cut" />
       <recent name="C:\Users\moroz\WebstormProjects\mishka\src" />
-      <recent name="C:\Users\moroz\WebstormProjects\mishka\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gulp.js.FilesWatch">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mishka/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="FilesWatch" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -189,7 +193,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.default" />
@@ -283,7 +287,8 @@
       <workItem from="1595443744206" duration="67000" />
       <workItem from="1600586550768" duration="635000" />
       <workItem from="1600589819954" duration="7000" />
-      <workItem from="1614704117328" duration="3653000" />
+      <workItem from="1614704117328" duration="3861000" />
+      <workItem from="1614708760111" duration="135000" />
     </task>
     <servers />
   </component>
@@ -295,7 +300,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="gh-pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
