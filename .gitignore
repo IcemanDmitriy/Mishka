@@ -13,3 +13,5 @@ build
 robots.txt
 
 debug.log
+
+.DS_Store
